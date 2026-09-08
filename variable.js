@@ -20,4 +20,4 @@ console.log(e+d);
 const city="address"
 
 
-
+console.log(2+2+'1')

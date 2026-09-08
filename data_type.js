@@ -61,4 +61,4 @@ let answer = confirm("Do you like JavaScript?");
 console.log(answer);
 //type conversion
 let agee=Number(prompt("enter a age"));
-console.log(agee+55)
+console.log(agee+55);
