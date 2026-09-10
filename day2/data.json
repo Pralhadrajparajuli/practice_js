@@ -1,0 +1,57 @@
+[
+                                        
+    {"circle1":[
+        {
+           "name":"A",
+           "age":20,
+           "address":"ktm"
+        },
+
+        { 
+            "name":"B",
+            "age":21,
+            "address":"ktm"
+        },
+
+        {
+            "name":"C",
+            "age":22,
+            "address":"pkr"
+        },
+
+        {
+            "name":"D",
+            "age":23,
+            "address":"Chitwan"
+        }
+       
+    ]},
+
+    {"circle2":[
+        {
+           "name":"E",
+           "age":20,
+           "address":"ktm"
+        },
+
+        { 
+            "name":"F",
+            "age":21,
+            "address":"ktm"
+        },
+
+        {
+            "name":"G",
+            "age":22,
+            "address":"pkr"
+        },
+
+        {
+            "name":"H",
+            "age":23,
+            "address":"Chitwan"
+        }
+       
+    ]}
+
+]
