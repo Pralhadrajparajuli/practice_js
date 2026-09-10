@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>Click the button to print</p>
+
+    <button id="printBtn">Print this page</button>
+
+    <script type="module">
+        import { print_current_page } from "./print_display.js";
+
+        document.getElementById("printBtn").onclick = print_current_page;
+    </script>
+
+</body>
+
+</html>
