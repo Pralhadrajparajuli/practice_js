@@ -1,0 +1,22 @@
+[
+    {
+        "name": "News",
+        "link": "/"
+    },
+    {
+        "name": "Fashion",
+        "link": "/fashion"
+    },
+    {
+        "name": "Gadgets",
+        "link": "/gadgets"
+    },
+    {
+        "name": "Travel",
+        "link": "/travel"
+    },
+    {
+        "name":"Review",
+        "link":"/review"
+    }
+]

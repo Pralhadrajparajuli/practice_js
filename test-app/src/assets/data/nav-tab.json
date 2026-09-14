@@ -1,0 +1,55 @@
+{
+  "dontMiss": [
+    {
+      "name": "Style Hunter",
+      "link": "#"
+    },
+    {
+      "name": "All",
+      "link": "#"
+    },
+    {
+      "name": "Vogue",
+      "link": "#"
+    },
+    {
+      "name": "Health & Fitness",
+      "link": "#"
+    },
+    {
+      "name": "Travel",
+      "link": "#"
+    },
+    {
+      "name": "Gadgets",
+      "link": "#"
+    },
+    {
+      "name": "More",
+      "link": "#"
+    }
+  ],
+
+  "lifestyle": [
+    {
+      "name": "All",
+      "link": "#"
+    },
+    {
+      "name": "Music",
+      "link": "#"
+    },
+    {
+      "name": "Health & Fitness",
+      "link": "#"
+    },
+    {
+      "name": "Travel",
+      "link": "#"
+    },
+    {
+      "name": "Receive",
+      "link": "#"
+    }
+  ]
+}

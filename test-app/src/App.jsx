@@ -1,13 +1,35 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Header from "./Header";
-import Counter from "./Counter";
+import Main from "./Mainn";
+import Fashion from "./Fashion";
+import Gadgets from "./Gadgets";
+import Travel from "./Travel";
+import Review from "./Review";
+
+import "./App.css";
 
 function App() {
     return (
-        <div>
-            <Header name="Pralhad "  city="pokhara"/>
-            <Counter/>
-           
-        </div>
+        <BrowserRouter>
+
+            <Header />
+
+            <Routes>
+
+                <Route path="/" element={<Main />} />
+
+                <Route path="/fashion" element={<Fashion />} />
+
+                <Route path="/gadgets" element={<Gadgets />} />
+
+                <Route path="/travel" element={<Travel />} />
+
+                <Route path="/review" element={<Review />} />
+
+            </Routes>
+
+        </BrowserRouter>
     );
 }
 

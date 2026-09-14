@@ -1,21 +1,24 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
-const Counter = () => {
-    const [count, setCount] = useState(0);
+// const Counter = () => {
+//     const [count, setCount] = useState(0);
 
-    useEffect(() => {
-        console.log("Count changed:", count);
-    }, [count]);
+//     useEffect(() => {
+//         console.log("Count changed:", count);
+//     }, [count]);
 
-    return (
-        <div>
-            <h2>Count: {count}</h2>
+//     return (
+//         <div>
+//             <h2>Count: {count}</h2>
 
-            <button onClick={() => setCount(count + 1)}>
-                Increase
-            </button>
-        </div>
-    );
-};
+//             <button onClick={() => setCount(count + 1)}>
+//                 Increase
+//             </button>
+//             <button onClick={() => setCount(count - 1)}>
+//                 decrease
+//             </button>
+//         </div>
+//     );
+// };
 
-export default Counter;
+// export default Counter;
