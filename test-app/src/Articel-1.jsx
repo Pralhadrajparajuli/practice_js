@@ -1,27 +1,13 @@
-const Fitness = () => {
+const Article1 = () => {
     return (
         <main>
-            <div className="fashion-hero">
-
-                <img
-                    className="fashion-image"
-                    src="/src/assets/body.jpeg"
-                    alt="fashion"
-                />
-
-                <div className="container">
-                    <h1>Fitness</h1>
-                    <p>Welcome to the Fitness Page.</p>
-                </div>
-
-            </div>
             <div className="container">
 
  
-             <h1>Increase your Endurance Through the Pilates Method.</h1>
+             <h1>WordPress News Magazine Charts the Most Chic and Fashionable Women of New York City.</h1>
              <img
                     className="article-image"
-                    src="/src/assets/girl.jpeg"
+                    src="/src/assets/fasgion.jpeg"
                     alt="magazine"
                 />
                 <p
@@ -33,13 +19,15 @@ const Fitness = () => {
 
                 <img 
                      className="article-image"
-                    src="/src/assets/exer.jpeg"
+                    src="/src/assets/girl2.jpeg"
                     alt="girl photo" />
 
                 <p className="article-text">We wandered the site with busloads of other tourists, yet strangely the place did not seem crowded. I’m not sure if it was the sheer size of the place, or whether the masses congregated in one area and didn’t venture far from the main church, but I didn’t feel overwhelmed by tourists in the monastery.</p>
+
+
             </div>
         </main>
     );
 };
 
-export default Fitness;
+export default Article1;

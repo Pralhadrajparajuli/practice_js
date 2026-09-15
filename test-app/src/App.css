@@ -5,6 +5,50 @@
             max-width: 976px;
             margin: 0 auto;
         }
+  
+     .article-image {
+    width: 900px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+.fashion-hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.fashion-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.fashion-hero .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 30px;
+
+    box-sizing: border-box;
+    color: white;
+
+    background: linear-gradient(to top, black, transparent);
+}
+.article-text{
+    width:900px;
+    padding-left:15px;
+    padding-right: 15px;
+    /* text-align: center; */
+    font-size:x-large;
+
+}
+
 
         body {
             background-color: white;
@@ -253,3 +297,100 @@
         .rightstyle-news {
             display: block;
         }
+        
+        
+        
+
+.menu-button {
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        width: 90%;
+        max-width: none;
+    }
+
+    /* Featured news */
+    .news-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Two small cards stay side by side */
+    .secondary-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Don't Miss / Lifestyle */
+    .section-nav {
+        flex-wrap: wrap;
+    }
+
+    .nav-tabs {
+        gap: 15px;
+        padding-left: 10px;
+    }
+
+    
+    .news-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .left-news img {
+        height: auto;
+    }
+
+    
+    .right-grid img {
+        width: 100px;
+        height: 80px;
+    }
+
+    
+    .article-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .article-text {
+        width: auto;
+        font-size: large;
+        padding: 10px;
+    }
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .menu-button {
+        display: block;
+        font-size: 28px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        margin-top: 15px;
+    }
+
+    .nav.open {
+        display: flex;
+    }
+
+    .nav a {
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+
+}    

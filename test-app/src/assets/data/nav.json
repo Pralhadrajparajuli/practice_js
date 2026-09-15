@@ -14,9 +14,5 @@
     {
         "name": "Travel",
         "link": "/travel"
-    },
-    {
-        "name":"Review",
-        "link":"/review"
     }
 ]

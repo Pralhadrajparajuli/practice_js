@@ -1,0 +1,34 @@
+
+{
+  "music": {
+    "main": {
+      "image": "/src/assets/Music.jpeg",
+      "title": "New Music Trends Taking Over the Industry",
+      "link": "/music"
+    },
+    "other": [
+      {
+        "image": "/src/assets/artist.jpeg",
+        "title": "Top Artists Release Exciting New Albums",
+        "link": "/music"
+      }
+      
+    ]
+  },
+
+  "all": {
+    "main": {
+      "image": "/src/assets/house.jpeg",
+      "title": "Now Is the Time to Think About Your Small-Business Success",
+      "link": "/all"
+    },
+    "other": [
+      {
+        "image": "/src/assets/radio.jpeg",
+        "title": "Radio Air Time Marketing: A New Strategy for the Economy",
+        "link": "/all"
+      }
+    ]
+  }
+
+}
