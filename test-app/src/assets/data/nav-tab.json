@@ -1,33 +1,14 @@
 {
   "dontMiss": [
     {
-      "name": "Style Hunter",
-      "link": "#"
-    },
-    {
-      "name": "All",
-      "link": "#"
-    },
-    {
-      "name": "Vogue",
-      "link": "#"
-    },
-    {
-      "name": "Health & Fitness",
+      "name": "Fitness",
       "link": "#"
     },
     {
       "name": "Travel",
       "link": "#"
-    },
-    {
-      "name": "Gadgets",
-      "link": "#"
-    },
-    {
-      "name": "More",
-      "link": "#"
     }
+  
   ],
 
   "lifestyle": [

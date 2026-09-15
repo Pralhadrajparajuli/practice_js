@@ -1,0 +1,51 @@
+{
+  "fitness": {
+    "main": {
+      "image": "/src/assets/girl.jpeg",
+      "title": "Increase your Endurance Through the Pilates Method",
+      "link": "/fitness"
+    },
+    "other": [
+      {
+        "image": "/src/assets/gym .jpeg",
+        "title": "The Ultimate Exercises to Improve Back Muscles",
+        "link": "/fitness"
+      },
+      {
+        "image": "/src/assets/exer.jpeg",
+        "title": "Motivational Songs to Have a Successful Workout",
+        "link": "/fitness"
+      },
+      {
+        "image": "/src/assets/res.jpeg",
+        "title": "The Dangers of Eating too Much Restaurant Food",
+        "link": "/fitness"
+      }
+    ]
+  },
+
+  "travel": {
+    "main": {
+      "image": "/src/assets/travel.jpeg",
+      "title": "Discover the Most Magical Sunset in Santorini",
+      "link": "/travel"
+    },
+    "other": [
+      {
+        "image": "/src/assets/natue.jpeg",
+        "title": "Best Things You Can Do on a Solo Mountain Climb",
+        "link": "/travel"
+      },
+      {
+        "image": "/src/assets/dessert.jpeg",
+        "title": "Flying Over the Grand Canyon with a Helicopter",
+        "link": "/travel"
+      },
+      {
+        "image": "/src/assets/curse.jpeg",
+        "title": "The Ultimate Cruise Experience in the Carribean",
+        "link": "/travel"
+      }
+    ]
+  }
+}

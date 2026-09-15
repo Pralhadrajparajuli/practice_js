@@ -1,7 +1,11 @@
+import { useState } from "react";
 import navtabs from "./assets/data/nav-tab.json";
+import dontMiss from "./assets/data/dontmiss.json";
 import { Link } from "react-router-dom";
 
 const Main = () => {
+  const [selectedTab, setSelectedTab] = useState("fitness");
+  const currentNews = dontMiss[selectedTab];
   console.log(navtabs, "nav tabs items");
   return (
     <main>
@@ -57,60 +61,73 @@ const Main = () => {
         </div>
 
         {/* Don't Miss */}
-        <div className="another-container">
+       <div className="another-container">
           <div className="section-nav">
             <div className="badge">DON'T MISS</div>
-            <div class="nav-tabs">
-            {navtabs.dontMiss.map((item) => (
-              <a href={item.link}>{item.name}</a>
-            ))}
+
+            <div className="nav-tabs">
+              {navtabs.dontMiss.map((item) => (
+                <a
+                  key={item.name}
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedTab(item.name.toLowerCase());
+                  }}
+                >
+                  {item.name}
+                </a>
+              ))}
             </div>
           </div>
         </div>
 
         {/* Don't Miss News */}
-        <div className="news-row">
-          <div className="left-news">
-            <img src="/src/assets/girl.jpeg" alt="Girl" />
+          <div className="news-row">
 
-            <a href="#">
-              <h3>Increase your Endurance Through the Pilates Method</h3>
-            </a>
+            <div className="left-news">
+
+              <img
+                src={currentNews.main.image}
+                alt={currentNews.main.title}
+              />
+
+              <Link to={currentNews.main.link}>
+                <h3>{currentNews.main.title}</h3>
+              </Link>
+
+            </div>
+
+
+            <div className="right-news">
+
+              {currentNews.other.map((article) => (
+
+                <div className="right-grid" key={article.title}>
+
+                  <img
+                    src={article.image}
+                    alt={article.title}
+                  />
+
+                  <Link to={article.link}>
+                    <h3>{article.title}</h3>
+                  </Link>
+
+                </div>
+
+              ))}
+
+            </div>
+
           </div>
-
-          <div className="right-news">
-            <div className="right-grid">
-              <img src="/src/assets/gym .jpeg" alt="Gym" />
-
-              <a href="#">
-                <h3>The Ultimate Exercises to Improve Back Muscles</h3>
-              </a>
-            </div>
-
-            <div className="right-grid">
-              <img src="/src/assets/exer.jpeg" alt="Exercise" />
-
-              <a href="#">
-                <h3>Motivational Songs to Have a Successful Workout</h3>
-              </a>
-            </div>
-
-            <div className="right-grid">
-              <img src="/src/assets/res.jpeg" alt="Restaurant" />
-
-              <a href="#">
-                <h3>The Dangers of Eating too Much Restaurant Food</h3>
-              </a>
-            </div>
-          </div>
-        </div>
 
         {/* Lifestyle News */}
         <div className="another-container">
           <div className="section-nav">
             <div className="another-badge">Lifestyle News</div>
 
-            <div class="nav-tabs">
+            <div className="nav-tabs">
             {navtabs.dontMiss.map((item) => (
               <a href={item.link}>{item.name}</a>
             ))}

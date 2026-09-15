@@ -8,6 +8,7 @@ import Travel from "./Travel";
 import Review from "./Review";
 
 import "./App.css";
+import Fitness from "./Fitness";
 
 function App() {
     return (
@@ -26,6 +27,8 @@ function App() {
                 <Route path="/travel" element={<Travel />} />
 
                 <Route path="/review" element={<Review />} />
+
+                <Route path="/fitness" element={<Fitness />} />
 
             </Routes>
 
