@@ -4,13 +4,13 @@
     "main": {
       "image": "/src/assets/Music.jpeg",
       "title": "New Music Trends Taking Over the Industry",
-      "link": "/music"
+      "link": "/music/music-trends-taking-industry"
     },
     "other": [
       {
         "image": "/src/assets/artist.jpeg",
         "title": "Top Artists Release Exciting New Albums",
-        "link": "/music"
+        "link": "/music/top-artists-release-albums"
       }
       
     ]
@@ -20,13 +20,13 @@
     "main": {
       "image": "/src/assets/house.jpeg",
       "title": "Now Is the Time to Think About Your Small-Business Success",
-      "link": "/all"
+      "link": "/all/small-business-sucesss-think"
     },
     "other": [
       {
         "image": "/src/assets/radio.jpeg",
         "title": "Radio Air Time Marketing: A New Strategy for the Economy",
-        "link": "/all"
+        "link": "/all/radi0-air-time-marketing-for-economy"
       }
     ]
   }

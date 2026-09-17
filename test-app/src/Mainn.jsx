@@ -18,7 +18,7 @@ const Main = () => {
         {/* Featured News */}
         <div className="news-container">
 
-          <Link to="/articel-1">
+          <Link to="/wordpress-news-magazine-chic-fashionable-women-new-york">
             <div className="card">
               <img src="/src/assets/fasgion.jpeg" alt="Fashion" />
 
@@ -33,7 +33,7 @@ const Main = () => {
 
           <div className="right-section">
 
-            <Link to="/articel-2" className="medium">
+            <Link to="/game-changing-virtual-reality-console" className="medium">
               <div className="card">
                 <img src="/src/assets/gadgets.jpeg" alt="Gadgets" />
 
@@ -47,7 +47,7 @@ const Main = () => {
 
             <div className="secondary-grid">
 
-              <Link to="/articel-3" className="small">
+              <Link to="/discover-magical-sunset-santorini" className="small">
                 <div className="card">
                   <img src="/src/assets/travel.jpeg" alt="Travel" />
 
@@ -59,9 +59,9 @@ const Main = () => {
                 </div>
               </Link>
 
-              <Link to="/articel-4" className="small">
+              <Link to="/computer-filters-noise-better-listener" className="small">
                 <div className="card">
-                  <img src="/src/assets/review.webp" alt="Review" />
+                  <img src="/src/assets/review.jpeg" alt="Review" />
 
                   <div className="title" style={{ fontSize: "15px" }}>
                     <p>
@@ -84,16 +84,18 @@ const Main = () => {
             <div className="badge">
               DON'T MISS
             </div>
-
-            <div className="nav-tabs">
-
+            <div className="nav-tabs dont-miss-tabs">
               {navtabs.dontMiss.map((item) => (
                 <a
                   key={item.name}
                   href="#"
+                  className={
+                  selectedTab === item.name.toLowerCase()
+                  ? "active"
+                  : ""
+                }
                   onClick={(e) => {
                     e.preventDefault();
-
                     setSelectedTab(
                       item.name.toLowerCase()
                     );
@@ -112,49 +114,61 @@ const Main = () => {
 
         <div className="news-row">
 
-          <div className="left-news">
+    <div className="left-news">
 
-            <img
-              src={currentNews.main.image}
-              alt={currentNews.main.title}
-            />
+        <img
+            src={currentNews.main.image}
+            alt={currentNews.main.title}
+        />
 
-            <Link to={currentNews.main.link}>
-              <h3>
+        <Link
+            to={currentNews.main.link}
+            state={{
+                title: currentNews.main.title,
+                image: currentNews.main.image
+            }}
+        >
+            <h3>
                 {currentNews.main.title}
-              </h3>
-            </Link>
+            </h3>
+        </Link>
 
-          </div>
+    </div>
 
 
-          <div className="right-news">
+    <div className="right-news">
 
-            {currentNews.other.map((article) => (
+        {currentNews.other.map((article) => (
 
-              <div
+            <div
                 className="right-grid"
                 key={article.title}
-              >
+            >
 
                 <img
-                  src={article.image}
-                  alt={article.title}
+                    src={article.image}
+                    alt={article.title}
                 />
 
-                <Link to={article.link}>
-                  <h3>
-                    {article.title}
-                  </h3>
+                <Link
+                    to={article.link}
+                    state={{
+                        title: article.title,
+                        image: article.image
+                    }}
+                >
+                    <h3>
+                        {article.title}
+                    </h3>
                 </Link>
 
-              </div>
+            </div>
 
-            ))}
+        ))}
 
-          </div>
+    </div>
 
-        </div>
+</div>
 
 
         {/*  LIFESTYLE  */}
@@ -167,13 +181,18 @@ const Main = () => {
               Lifestyle News
             </div>
 
-            <div className="nav-tabs">
+             <div className="nav-tabs lifestyle-tabs">
 
               {navtabs.lifestyle.map((item) => (
 
                 <a
                   key={item.name}
                   href="#"
+                  className={
+                  selectedLifestyle === item.name.toLowerCase()
+                  ? "active"
+                  : ""
+                }
                   onClick={(e) => {
                     e.preventDefault();
 
@@ -195,51 +214,62 @@ const Main = () => {
 
 
         {/* Lifestyle Articles */}
-
         <div className="news-row">
 
-        <div className="left-news">
+            <div className="left-news">
 
-          <img
-            src={currentLifestyle.main.image}
-            alt={currentLifestyle.main.title}
-          />
+                <img
+                    src={currentLifestyle.main.image}
+                    alt={currentLifestyle.main.title}
+                />
 
-          <Link to={currentLifestyle.main.link}>
-            <h3>
-              {currentLifestyle.main.title}
-            </h3>
-          </Link>
-
-        </div>
-
-        <div className="right-news">
-
-          {currentLifestyle.other.map((article) => (
-
-            <div
-              className="right-grid"
-              key={article.title}
-             >
-
-              <img
-                src={article.image}
-                alt={article.title}
-              />
-
-              <Link to={article.link}>
-                <h3>
-                  {article.title}
-                </h3>
-              </Link>
+                <Link
+                    to={currentLifestyle.main.link}
+                    state={{
+                        title: currentLifestyle.main.title,
+                        image: currentLifestyle.main.image
+                    }}
+                >
+                    <h3>
+                        {currentLifestyle.main.title}
+                    </h3>
+                </Link>
 
             </div>
 
-           ))}
+            <div className="right-news">
 
-           </div>
+                {currentLifestyle.other.map((article) => (
 
-         </div>
+                    <div
+                        className="right-grid"
+                        key={article.title}
+                    >
+
+                        <img
+                            src={article.image}
+                            alt={article.title}
+                        />
+
+                        <Link
+                            to={article.link}
+                            state={{
+                                title: article.title,
+                                image: article.image
+                            }}
+                        >
+                            <h3>
+                                {article.title}
+                            </h3>
+                        </Link>
+
+                    </div>
+
+                ))}
+
+            </div>
+
+        </div>
       </div>
      </main>
   );

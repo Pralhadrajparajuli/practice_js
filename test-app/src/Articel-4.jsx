@@ -7,7 +7,7 @@ const Article4 = () => {
              <h1>Computer Filters Noise to Make You a Better Listener.</h1>
              <img
                     className="article-image"
-                    src="/src/assets/review.webp"
+                    src="/src/assets/review.jpeg"
                     alt="magazine"
                 />
                 <p

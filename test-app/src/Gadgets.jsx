@@ -11,7 +11,7 @@ const Gadgets = () => {
 
                 <div className="container">
                     <h1>Gadgets</h1>
-                    <p>Welcome to the Gadgets page.</p>
+                    {/* <p>Welcome to the Gadgets page.</p> */}
                 </div>
 
             </div>

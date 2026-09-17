@@ -11,7 +11,7 @@ const Travel = () => {
 
                 <div className="container">
                     <h1>Travel</h1>
-                    <p>Welcome to the Travel Page.</p>
+                    {/* <p>Welcome to the Travel Page.</p> */}
                 </div>
 
             </div>

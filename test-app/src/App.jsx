@@ -13,7 +13,7 @@ import Article3 from "./Articel-3";
 import Article4 from "./Articel-4";
 import Music   from  "./Music";
 import All from "./All";
-
+import Article from "./Article";
 import "./App.css";
 
 function App() {
@@ -29,20 +29,22 @@ function App() {
                 <Route path="/fashion" element={<Fashion />} />
 
                 <Route path="/gadgets" element={<Gadgets />} />
-
                 <Route path="/travel" element={<Travel />} />
 
-                <Route path="/fitness" element={<Fitness />} />
+                <Route path="/travel/:articleName" element={<Fitness />} />
 
-                <Route path="/articel-1" element={<Article1 />} />
+                <Route path="/fitness/:articleName" element={<Fitness />} />
 
-                <Route path="/articel-2" element={<Article2 />} />
+                <Route path="/wordpress-news-magazine-chic-fashionable-women-new-york" element={<Article1 />} />
 
-                <Route path="/articel-3" element={<Article3 />} />
+                <Route path="/game-changing-virtual-reality-console" element={<Article2 />} />
 
-                <Route path="/articel-4" element={<Article4 />} />
-                <Route path="/all" element={<All />} />
-                <Route path="/music" element={<Music />} />
+                <Route path="/discover-magical-sunset-santorini" element={<Article3 />} />
+
+                <Route path="/computer-filters-noise-better-listener" element={<Article4 />} />
+               <Route path="/music/:articleName" element={<All />} />
+                <Route path="/all/:articleName" element={<All />} />
+                <Route path="/fashion/:articleName" element={<Article />} />
             </Routes>
 
         </BrowserRouter>

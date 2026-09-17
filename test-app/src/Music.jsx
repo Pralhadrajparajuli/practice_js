@@ -11,7 +11,7 @@ const Music = () => {
 
                 <div className="container">
                     <h1>Music</h1>
-                    <p>Welcome to the Music Page.</p>
+                    {/* <p>Welcome to the Music Page.</p> */}
                 </div>
 
             </div>

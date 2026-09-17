@@ -21,8 +21,9 @@
 // export default Header;
 
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import navdata from "./assets/data/nav.json";
-
 const Header = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
@@ -30,12 +31,13 @@ const Header = () => {
     return (
         <header>
             <div className="container">
-
+                <Link to="/">
                 <img
                     src="/src/assets/logo.jpeg"
                     className="logo"
                     alt="Logo"
                 />
+                </Link>
 
                 <button
                     className="menu-button"
@@ -45,15 +47,17 @@ const Header = () => {
                 </button>
 
                 <div className={`nav ${menuOpen ? "open" : ""}`}>
+
                     {navdata.map(item => (
-                        <a
+                        <NavLink
                             key={item.name}
-                            href={item.link}
+                            to={item.link}
                             onClick={() => setMenuOpen(false)}
                         >
                             {item.name}
-                        </a>
+                        </NavLink>
                     ))}
+
                 </div>
 
             </div>

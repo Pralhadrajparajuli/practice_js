@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Fashion Outfit Ideas From the Biggest Instagram Influencers.",
+        "image": "/src/assets/influence.jpeg",
+       "link": "/fashion/fashion-outfit-ideas-from-influencer",
+        "description": [
+            "Instagram influencers have become an important source of fashion inspiration. Their outfits often combine everyday clothing with current fashion trends.",
+            "From casual streetwear to elegant outfits, influencers show how simple clothing pieces can be combined to create different looks.",
+            "You can also create your own style by taking inspiration from these outfits and choosing clothes that match your personality and comfort."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Style Spy: Fashion Model Goes Casual in Faux Furr and Plaid",
+        "image": "/src/assets/girlfur.jpeg",
+        "link": "/fashion/fashion-model-goes-causal",
+        "description": [
+            "Casual fashion does not always mean simple. The right combination of textures and patterns can create a stylish everyday outfit.",
+            "Faux fur and plaid are two elements that can add personality to a casual look while still keeping the outfit comfortable.",
+            "The combination can be styled with simple accessories and neutral colors for a balanced appearance."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "How to Find the Perfect Sunglasses for Your Hair & Face Shape.",
+        "image": "/src/assets/sunglass.jpeg",
+        "link": "/fashion/find-perfect-sunglasses-for-hair-face",
+        "description": [
+            "Choosing the right sunglasses is not only about following fashion trends. The shape of your face can also help you decide which frame looks best.",
+            "Different face shapes can work well with different frame styles. It is useful to try several shapes before making a choice.",
+            "Hair style and color can also influence how sunglasses look. Choosing a frame that complements both your face and hair can create a more balanced appearance."
+        ]
+    }
+]

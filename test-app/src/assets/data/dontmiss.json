@@ -3,23 +3,23 @@
     "main": {
       "image": "/src/assets/girl.jpeg",
       "title": "Increase your Endurance Through the Pilates Method",
-      "link": "/fitness"
+      "link": "/fitness/increase-endurance-through-pilates"
     },
     "other": [
       {
         "image": "/src/assets/gym .jpeg",
         "title": "The Ultimate Exercises to Improve Back Muscles",
-        "link": "/fitness"
+        "link": "/fitness/improve-back-muscles"
       },
       {
         "image": "/src/assets/exer.jpeg",
         "title": "Motivational Songs to Have a Successful Workout",
-        "link": "/fitness"
+        "link": "/fitness/motivational-workout-songs"
       },
       {
         "image": "/src/assets/res.jpeg",
         "title": "The Dangers of Eating too Much Restaurant Food",
-        "link": "/fitness"
+        "link": "/fitness/danger-of-eating-atrestaurant-food"
       }
     ]
   },
@@ -28,23 +28,23 @@
     "main": {
       "image": "/src/assets/travel.jpeg",
       "title": "Discover the Most Magical Sunset in Santorini",
-      "link": "/travel"
+      "link": "/travel/Magical-Sunset-at-santorini"
     },
     "other": [
       {
         "image": "/src/assets/natue.jpeg",
         "title": "Best Things You Can Do on a Solo Mountain Climb",
-        "link": "/travel"
+        "link": "/travel/mountain-climb"
       },
       {
         "image": "/src/assets/dessert.jpeg",
         "title": "Flying Over the Grand Canyon with a Helicopter",
-        "link": "/travel"
+        "link": "/travel/grand-canyon"
       },
       {
         "image": "/src/assets/curse.jpeg",
         "title": "The Ultimate Cruise Experience in the Carribean",
-        "link": "/travel"
+        "link": "/travel/cruise-experience"
       }
     ]
   }
