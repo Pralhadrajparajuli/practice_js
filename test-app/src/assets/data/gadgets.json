@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Sneak Peak: Best Smart Home Gadgets & Features of 2020",
+        "image": "/src/assets/smart.jpeg",
+        "link": "/gadgets/best-smart-home-gadgets",
+        "description": [
+            "Smart home gadgets are becoming increasingly popular as people look for easier and more convenient ways to manage their homes. From smart speakers to connected lights, these devices can make everyday tasks simpler.",
+            "Many smart home devices can be controlled using a smartphone or voice commands. Users can adjust lighting, control appliances, monitor their homes, and manage other connected devices from a single place.",
+            "The best smart home gadgets are designed to combine convenience, connectivity, and ease of use. Choosing devices that work well together can help create a more connected and efficient home."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "New Action Game Refreshed With a Premium Hi-Fi Sound",
+        "image": "/src/assets/keyword.jpeg",
+        "link": "/gadgets/new-action-game-refreshed",
+        "description": [
+            "The latest action games are focusing not only on graphics and gameplay but also on creating an immersive audio experience. High-quality sound can make explosions, music, dialogue, and other game effects feel more realistic.",
+            "Premium Hi-Fi sound systems can provide clearer audio and better separation between different sounds. This can help players notice important details while also making the overall gaming experience more enjoyable.",
+            "With improved audio technology and powerful gaming hardware, modern action games can deliver a more engaging experience. A good combination of a capable gaming system and quality audio equipment can make gameplay feel much more immersive."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Discover a Better Camera for Your YouTube Account",
+        "image": "/src/assets/camera.jpeg",
+        "link": "/gadgets/discover-better-camera",
+        "description": [
+            "Choosing the right camera can make a significant difference for YouTube creators. A good camera can provide sharper video, better colors, and improved image quality compared with a basic webcam or smartphone camera.",
+            "When selecting a camera for YouTube, creators should consider video resolution, autofocus, low-light performance, microphone support, and ease of use. These features can help produce better videos in different recording environments.",
+            "A suitable camera does not always have to be the most expensive option. The best choice depends on the type of content being created, the recording environment, and the creator's budget."
+        ]
+    }
+]

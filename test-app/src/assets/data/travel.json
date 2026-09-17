@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "The Ultimate Cruise Experience in the Carribean",
+        "image": "/src/assets/curse.jpeg",
+        "link": "/gadgets/ultimate-cruise-experience-caribbean",
+        "description": [
+            "A Caribbean cruise offers travelers the chance to explore beautiful islands, clear blue waters, and tropical beaches while enjoying the comfort of a cruise ship.",
+            "Passengers can enjoy activities such as relaxing by the pool, trying different foods, watching live entertainment, and exploring different Caribbean destinations during port stops.",
+            "Choosing the right cruise depends on the destinations, activities, travel duration, and type of experience you prefer. With good planning, a Caribbean cruise can become a memorable vacation."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Best Things You Can Do on a Solo Mountain Climb",
+        "image": "/src/assets/natue.jpeg",
+        "link": "/gadgets/best-things-solo-mountain-climb",
+        "description": [
+            "Solo mountain climbing can be an exciting way to experience nature, enjoy peaceful surroundings, and challenge yourself physically and mentally.",
+            "During a solo climb, you can explore mountain trails, enjoy scenic views, take photographs, observe wildlife, and spend time away from the busy routines of everyday life.",
+            "Safety and preparation are especially important when climbing alone. Checking the weather, carrying enough water and food, using proper equipment, and informing someone about your route can make the experience safer and more enjoyable."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Most Popular Recipes You Need To Try in Kathmandu 2026",
+        "image": "/src/assets/rice.jpeg",
+        "link": "/gadgets/popular-recipes-kathmandu-2026",
+        "description": [
+            "Kathmandu offers a wide variety of delicious foods influenced by Nepali and Newari cuisine. Visitors can find everything from traditional local dishes to modern restaurants and international food.",
+            "Some popular foods to try include momo, Newari khaja sets, thukpa, chatamari, and traditional rice-based dishes. These foods provide a taste of the diverse culinary culture found in Kathmandu.",
+            "Exploring different restaurants and local food spots can be a great way to discover new flavors. In 2026, food lovers can enjoy both traditional recipes and modern interpretations of Kathmandu's popular dishes."
+        ]
+    }
+]

@@ -6,7 +6,6 @@ import Fashion from "./Fashion";
 import Gadgets from "./Gadgets";
 import Travel from "./Travel";
 import Fitness from "./Fitness";
-
 import Article1 from "./Articel-1";
 import Article2 from "./Articel-2";
 import Article3 from "./Articel-3";
@@ -15,6 +14,7 @@ import Music   from  "./Music";
 import All from "./All";
 import Article from "./Article";
 import "./App.css";
+import Footer from "./Footer";
 
 function App() {
     return (
@@ -45,7 +45,10 @@ function App() {
                <Route path="/music/:articleName" element={<All />} />
                 <Route path="/all/:articleName" element={<All />} />
                 <Route path="/fashion/:articleName" element={<Article />} />
+                <Route path="/gadgets/:articleName" element={<Article />} />
+                <Route path="/travel/:articleName" element={<Article />} />
             </Routes>
+            <Footer/>
 
         </BrowserRouter>
     );
